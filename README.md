@@ -46,9 +46,9 @@ MAX_LENGTH = 200
 ```
 
 **Why 200?**
-- ✅ Covers the majority of the examples in the training data (see EDA visualizations)
-- ✅ Reduces computational cost
-- ✅ Faster training and inference
+- Covers the majority of the examples in the training data (see EDA visualizations)
+- Reduces computational cost
+- Faster training and inference
 
 ---
 
@@ -73,9 +73,9 @@ with torch.amp.autocast("cuda"):
 ```
 
 **Benefits:**
-- ✅ Much faster training with T4 GPU on Kaggle
-- ✅ Reduced memory usage
-- ✅ No noticable accuracy decrease
+- Much faster training with T4 GPU on Kaggle
+- Reduced memory usage
+- No noticable accuracy decrease
 
 
 
